@@ -25,7 +25,7 @@
     var SUPABASE_CDN = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
     var LOAD_TIMEOUT_MS = 6000;
     var DEFAULT_BRAND = 'GeezyCode';
-    var DEFAULT_WA = '6281234567890';
+    var DEFAULT_WA = '6285607177540';
     var DP_PERCENT = 50;
 
     var FILTER_LABELS = {

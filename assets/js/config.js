@@ -24,11 +24,11 @@
 */
 
 window.SITE_CONFIG = {
-    supabaseUrl: '',
-    supabaseKey: '',
+    supabaseUrl: 'https://lannruwmcansxmwnmvpr.supabase.co',
+    supabaseKey: 'sb_publishable_wDvzhRG8_X3d33LlYgHjPA_uCwtKSLb',
 
     brandName: 'GeezyCode',
-    whatsappNumber: '6281234567890',
+    whatsappNumber: '6285607177540',
 
     saveBriefs: true,
 };
