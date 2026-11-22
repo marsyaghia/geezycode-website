@@ -1,5 +1,5 @@
 -- ==========================================================================
--- KodingCerdas Studio — Skema Database Supabase
+-- GeezyCode — Skema Database Supabase
 -- ==========================================================================
 --
 -- CARA PAKAI
@@ -240,7 +240,7 @@ create policy "Publik mengirim brief baru" on public.order_briefs
 -- --------------------------------------------------------------------------
 -- Pengaturan website
 insert into public.site_settings (id, brand_name, whatsapp_number, is_open) values
-    (1, 'KodingCerdas Studio', '6281234567890', true);
+    (1, 'GeezyCode', '6281234567890', true);
 
 -- Kategori layanan (tab)
 insert into public.categories (id, sort_order, index_label, label, description) values

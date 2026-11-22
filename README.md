@@ -1,4 +1,4 @@
-# KodingCerdas Studio — Website Statis (HTML, CSS, JS + Supabase)
+# GeezyCode — Website Statis (HTML, CSS, JS + Supabase)
 
 Website portofolio, pricelist, dan order WhatsApp. Tanpa framework dan tanpa proses build, jadi bisa langsung di-online-kan di GitHub Pages.
 
@@ -27,7 +27,7 @@ Klik dua kali `index.html`, website akan terbuka di browser. Tanpa Supabase pun 
 
    ```sql
    update public.site_settings
-   set whatsapp_number = '6281xxxxxxxxx', brand_name = 'KodingCerdas Studio', updated_at = now()
+   set whatsapp_number = '6281xxxxxxxxx', brand_name = 'GeezyCode', updated_at = now()
    where id = 1;
    ```
 

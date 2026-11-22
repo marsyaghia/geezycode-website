@@ -13,7 +13,7 @@
 window.FALLBACK_DATA = {
     "settings": {
         "brand_name": "GeezyCode",
-        "whatsapp_number": "6285607177540",
+        "whatsapp_number": "6281234567890",
         "is_open": true
     },
     "categories": [

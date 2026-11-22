@@ -25,7 +25,7 @@
     var SUPABASE_CDN = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
     var LOAD_TIMEOUT_MS = 6000;
     var DEFAULT_BRAND = 'GeezyCode';
-    var DEFAULT_WA = '6285607177540';
+    var DEFAULT_WA = '6281234567890';
     var DP_PERCENT = 50;
 
     var FILTER_LABELS = {
@@ -124,10 +124,18 @@
     }
 
     function initials(name) {
-        return String(name)
-            .trim()
-            .split(/\s+/)
-            .filter(Boolean)
+        var words = String(name).trim().split(/\s+/).filter(Boolean);
+
+        // Satu kata dengan huruf kapital di tengah (contoh: GeezyCode → GC)
+        if (words.length === 1) {
+            var capitals = words[0].match(/[A-Z]/g) || [];
+            if (capitals.length >= 2) {
+                return capitals.slice(0, 2).join('');
+            }
+            return words[0].slice(0, 2).toUpperCase();
+        }
+
+        return words
             .slice(0, 2)
             .map(function (word) { return word.charAt(0).toUpperCase(); })
             .join('');
@@ -384,7 +392,7 @@
         });
 
         $all('[data-brand-initials]').forEach(function (el) {
-            el.textContent = initials(brand) || 'KS';
+            el.textContent = initials(brand) || 'GC';
         });
 
         var consultUrl = waUrl('Halo ' + brand + ', saya mau konsultasi gratis dulu soal tugas/proyek IT saya.');

@@ -28,7 +28,7 @@ window.SITE_CONFIG = {
     supabaseKey: '',
 
     brandName: 'GeezyCode',
-    whatsappNumber: '6285607177540',
+    whatsappNumber: '6281234567890',
 
     saveBriefs: true,
 };
